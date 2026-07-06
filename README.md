@@ -20,7 +20,7 @@ First, ensure you have the required libraries installed. You can install them us
 ```bash
 pip install -r requirements.txt
 ```
-```text
+
 2. Setup Directory Structure
 Make sure your project folder is organized as follows before running the script:
 
@@ -39,8 +39,9 @@ python-watermark-script/
 3. Run the Script
 Execute the script using your terminal:
 
+```bash
 python3 logo.py
-```
+
 
 4. Get the Output
 Once the terminal displays Done!, a new folder named output will be automatically created containing all your watermarked images.
