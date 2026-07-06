@@ -19,7 +19,8 @@ A simple, lightweight, and efficient Python script designed to automatically bat
 First, ensure you have the required libraries installed. You can install them using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
-
+```
+```text
 2. Setup Directory Structure
 Make sure your project folder is organized as follows before running the script:
 
@@ -39,6 +40,7 @@ python-watermark-script/
 Execute the script using your terminal:
 
 python3 logo.py
+```
 
 4. Get the Output
 Once the terminal displays Done!, a new folder named output will be automatically created containing all your watermarked images.
