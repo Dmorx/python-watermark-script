@@ -24,6 +24,7 @@ pip install -r requirements.txt
 2. Setup Directory Structure
 Make sure your project folder is organized as follows before running the script:
 
+```text
 python-watermark-script/
 │
 ├── input/               # Drop your original images here
@@ -33,6 +34,7 @@ python-watermark-script/
 ├── logo.png             # Your transparent watermark logo
 ├── logo.py              # The main script file
 └── requirements.txt     # Dependencies
+```
 
 📌 Note: Create a folder named input in the root directory if it doesn't exist, and place your images there. Your watermark must be named exactly logo.png and placed next to the script.
 
@@ -41,7 +43,7 @@ Execute the script using your terminal:
 
 ```bash
 python3 logo.py
-
+```
 
 4. Get the Output
 Once the terminal displays Done!, a new folder named output will be automatically created containing all your watermarked images.
